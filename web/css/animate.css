@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-container {
+  text-align: center;
+}
+
+#phrase {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}

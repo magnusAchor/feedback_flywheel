@@ -1,0 +1,169 @@
+
+svg {
+    position: fixed;
+    z-index: -4;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    height: 140px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #888;
+}
+
+.main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.search-section,
+.suggestion-section,
+.browse-section {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h2#sbtsug {
+    background-color: black;
+    padding: 20px;
+    margin-inline-start: -13px;
+    margin-inline-end: -13px;
+    margin-top: -15px;
+    color: wheat;
+}
+     .scroll-container {
+    max-height: 600px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+    
+       .suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions-list li {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.suggestions-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.suggestions-list b {
+    font-weight: 600;
+    color: #333;
+}
+
+.suggestions-list .website-url {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.suggestions-list .website-url:hover {
+    text-decoration: underline;
+}
+
+.suggestions-list .description,
+.suggestions-list .attachment {
+    margin-top: 10px;
+    color: #555;
+}
+   
+        h2#sbtsug {
+    background-color: black;
+    padding: 20px;
+    margin-inline-start: -13px;
+    margin-inline-end: -13px;
+    margin-top: -15px;
+    color: wheat;
+}
+h2#dissug {
+     background-color: black;
+    padding: 20px;
+    margin-inline-start: -13px;
+    margin-inline-end: -13px;
+    margin-top: -15px;
+    color: wheat;
+}
+   
