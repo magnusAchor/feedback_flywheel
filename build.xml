@@ -67,5 +67,11 @@
     properties which you can use check the target you are overriding in 
     nbproject/build-impl.xml file. 
 
+<target name="dist" depends="build">
+    <mkdir dir="dist"/>
+    <jar destfile="dist/feedback_flywheel.war" basedir="build/classes"/>
+</target>
+
+
     -->
 </project>
